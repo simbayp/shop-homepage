@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import AddToCart from "./AddToCart";
-import RemoveFromCart from "./RemoveFromCart";
+import React, { useState } from 'react';
+import AddToCart from './AddToCart';
+import RemoveFromCart from './RemoveFromCart';
 
 function FancyProduct(props) {
   const [isDone, setIsDone] = useState(false);

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function RemoveFromCart(props) {
   return (
@@ -7,7 +7,7 @@ function RemoveFromCart(props) {
         props.onRemove();
         props.onCheck();
       }}
-      className="btn btn-outline-dark mt-auto"
+      className="btn btn-outline-danger mt-auto"
     >
       Remove from cart
     </button>

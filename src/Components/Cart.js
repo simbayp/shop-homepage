@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function Cart(props) {
   return (
-    <form class="d-flex">
-      <button class="btn btn-outline-dark" type="submit">
-        <i class="bi bi-cart-fill me-1"></i>
+    <form className="d-flex">
+      <button className="btn btn-outline-dark" type="submit">
+        <i className="bi bi-cart-fill me-1"></i>
         <span> </span>
         Cart
         <span> </span>
-        <span class="badge bg-dark text-white ms-1 rounded-pill">
+        <span className="badge bg-dark text-white ms-1 rounded-pill">
           {props.count}
         </span>
       </button>
